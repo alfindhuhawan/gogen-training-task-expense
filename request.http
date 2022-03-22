@@ -1,0 +1,10 @@
+POST http://localhost:8080/runexpensecreate
+
+{
+    "value": 30000,
+    "desc" : "Beli Game",
+    "date" : "2022-03-20"
+}
+
+###
+GET http://localhost:8080/getallexpense
